@@ -1,0 +1,104 @@
+﻿body {
+    background-color: #fff;
+    color: #222;
+    font-family: Tahoma;
+}
+
+div.keypad {
+    width: 960px;
+    margin: 0 auto;
+}
+
+div.keypadrow {
+    width: 100%;
+}
+
+div.padkey {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+div.zeropadkey {
+    float: left;
+    width: 99%;
+    text-align: center;
+}
+
+span.digit {
+    font-size: 72px;
+}
+
+span.letter {
+    font-size: 24px;
+}
+
+
+div.options fieldset {
+    font-size: 18px;
+    border: none;
+    text-align: center;
+}
+
+    div.options fieldset input[type=text] {
+        width: 50px;
+        text-align: center;
+    }
+
+div.config div.keypadrow {
+    clear: both;
+    width: 350px;
+    margin: 0 auto;
+}
+
+    div.config div.keypadrow div.digit {
+        padding: 10px;
+        text-align: center;
+        float: left;
+        width: 72px;
+    }
+
+    div.config div.keypadrow div.configline {
+        padding: 10px;
+        text-align: center;
+        float: left;
+    }
+
+div.query {
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+    div.query fieldset {
+        text-align: center;
+        font-size: 24px;
+        padding: 5px;
+        border: none;
+    }
+
+        div.query fieldset input.message {
+            width: 250px;
+            font-weight: bold;
+        }
+
+        div.query fieldset div.taps {
+            text-align: center;
+        }
+
+            div.query fieldset div.taps span.tap {
+                white-space: nowrap;
+                padding: 5px;
+                font-size: small;
+                width: 50px;
+                margin: 0 auto;
+                display: inline-table;
+            }
+
+
+
+
+div.error {
+    text-align: center;
+    color: #800000;
+}
